@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Kevin Gumba</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/config.js"></script>
+	<script src="assets/js/workHistory.js"></script>
+	<script src="assets/js/technicalSkill.js"></script>
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
+<?php include_once("assets/php/analyticstracking.php") ?>
+
+<!--navigation bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#home">Kevin Gumba</a>
+
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+				<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navigation">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#work">Work</a></li>
+				<!--<li><a href="#projects">Projects</a></li>-->
+				<li><a href="#tech">Technical</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>	
+</nav>
+
+<!--introduction-->
+<div class="page container-fluid bg-pic-1">
+	<div class="jumbotron center text-center block">
+		<h1>Kevin Gumba</h1>
+		<h2>Hello World!</h2>
+		<p>I am a passionate software engineer with keen interest in full-stack design</p>
+	</div>
+</div>
+
+<!--work history-->
+<div id="work" class="page container-fluid text-center block">
+</div>
+
+<!--projects-->
+<!--
+<div id="projects" class="page container-fluid text-center">
+	<h1>Projects</h1>
+</div>
+-->
+
+<!--technical skills-->
+<div id="tech" class="page container-fluid bg bg-pic-2">
+	<div class="center text-center block">
+		
+		<?php include "assets/php/technicalSkill.php"; ?>
+	</div>
+</div>
+
+<!--contact-->
+<div id="contact" class="page container-fluid text-center bg bg-pic-3">
+	<div class="center text-center block center-block">
+		<h1>Contact</h1>
+		<p><img src="assets/img/email.png" /></p>
+		<p><a href="https://www.linkedin.com/in/kgumba"><img src="assets/img/linkedin.png" height="8%" width="8%" /></a></p>
+	</div>
+</div>
+</body>
+
+<footer>
+	<div class="text-center"> 
+		Built using HTML, JS, CSS <br>
+		Copyright &copy; Kevin Gumba 
+	</div>
+</footer>
+</html>

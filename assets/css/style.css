@@ -1,0 +1,67 @@
+.block {
+	background-color: rgba(255,255,255,0.6);
+	width: 100%;
+	padding: 2%;
+}
+
+.bg {
+		background-size: cover;
+    	background-repeat: no-repeat;
+}
+
+.bg-pic-1 {
+		background-image: url("../img/sanfran.jpg");
+		background-size: cover;
+    	background-repeat: no-repeat;
+}
+
+.bg-pic-2 {
+		background-image: url("../img/london.jpg");
+}
+
+.bg-pic-3 {
+		background-image: url("../img/tokyo.jpg");
+}
+
+.btn-success {
+	margin: 0.1%;
+}
+
+.center {
+	position: absolute;	
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.center-vertical {	
+	top: 50%;
+}
+
+h1 {
+	padding-bottom: 1%;
+}
+
+.img-responsive {
+	width: 20%;
+	height: 20%;
+}
+
+.img {
+	max-width: 20%;
+	max-height: 20%;
+}
+
+.navbar, footer {
+	background-color: #f8f8f8;	
+}
+
+.page {
+	position: relative;
+	min-height: 100vh;	
+	padding-top: 60px;
+}
+
+.row {
+	padding-bottom: 3%;
+}
