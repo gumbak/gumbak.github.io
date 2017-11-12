@@ -22,9 +22,16 @@ var HTML_WORK_HISTORY =
 
 var WORK_HISTORY_DETAILS = [
 	{
+		JOB_TITLE : "Software Development Engineer",
+		COMPANY : "Amazon",
+		DURATION : "June 2017 - Present",
+		JOB_DESCRIPTION : "",
+		IMAGE : "amazon_alexa.png"
+	},
+	{
 		JOB_TITLE : "Software Developer",
 		COMPANY : "SAP",
-		DURATION : "September 2015 - Present",
+		DURATION : "September 2015 - May 2017",
 		JOB_DESCRIPTION : "",
 		IMAGE : "sap.png"
 	},
